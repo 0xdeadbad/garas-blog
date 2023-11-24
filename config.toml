@@ -1,0 +1,48 @@
+# The URL the site will be built for
+base_url = "https://garicas.dev"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+theme = "apollo"
+
+generate_feed = true
+minify_html = true
+
+title = "Garicas' blog"
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# Put all your custom variables here
+
+use_cdn = false
+
+meta = [
+    {property = "og:title", content = "the og title"},
+    {property = "og:description", content = "the og description"},
+]
+
+theme = "toggle"
+
+menu = [
+    { name = "/posts", url = "/posts", weight = 1 },
+    { name = "/projects", url = "/projects", weight = 2 },
+    { name = "/about", url = "/about", weight = 3 },
+]
+
+socials = [
+    { name = "twitter", url = "https://twitter.com/_garicas", icon = "twitter" },
+    { name = "github", url = "https://github.com/oxdeadbad/", icon = "github" },
+]
+
+custom_css = []
+
+[extra.analytics]
+enabled = false
