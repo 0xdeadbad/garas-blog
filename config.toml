@@ -38,8 +38,8 @@ menu = [
 ]
 
 socials = [
-    { name = "twitter", url = "https://twitter.com/_garicas", icon = "twitter" },
     { name = "github", url = "https://github.com/oxdeadbad/", icon = "github" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/matheus-g-94909911b/", icon = "linkedin" },
 ]
 
 custom_css = []
