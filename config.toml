@@ -38,7 +38,7 @@ menu = [
 ]
 
 socials = [
-    { name = "github", url = "https://github.com/oxdeadbad/", icon = "github" },
+    { name = "github", url = "https://github.com/0xdeadbad/", icon = "github" },
     { name = "linkedin", url = "https://www.linkedin.com/in/matheus-g-94909911b/", icon = "linkedin" },
 ]
 
